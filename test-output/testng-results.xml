@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-26T01:43:23 IST" name="Amazon" finished-at="2024-01-26T01:44:14 IST" duration-ms="50677">
+    <groups>
+    </groups>
+    <test started-at="2024-01-26T01:43:23 IST" name="AmazonWebsite Test" finished-at="2024-01-26T01:44:14 IST" duration-ms="50677">
+      <class name="tests.testCases">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.testCases@5890e879]" started-at="2024-01-26T01:43:23 IST" name="setup" finished-at="2024-01-26T01:43:31 IST" duration-ms="8280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="goTo()[pri:0, instance:tests.testCases@5890e879]" started-at="2024-01-26T01:43:31 IST" name="goTo" finished-at="2024-01-26T01:43:35 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTo -->
+        <test-method signature="searchProducts()[pri:0, instance:tests.testCases@5890e879]" started-at="2024-01-26T01:43:35 IST" name="searchProducts" finished-at="2024-01-26T01:43:36 IST" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProducts -->
+        <test-method signature="selectProduct()[pri:0, instance:tests.testCases@5890e879]" started-at="2024-01-26T01:43:36 IST" name="selectProduct" finished-at="2024-01-26T01:43:59 IST" duration-ms="22941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method signature="selectQuantity()[pri:0, instance:tests.testCases@5890e879]" started-at="2024-01-26T01:43:59 IST" name="selectQuantity" finished-at="2024-01-26T01:44:14 IST" duration-ms="14448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectQuantity -->
+      </class> <!-- tests.testCases -->
+    </test> <!-- AmazonWebsite Test -->
+  </suite> <!-- Amazon -->
+</testng-results>
